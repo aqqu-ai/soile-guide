@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+
+<rect width="1600" height="900" fill="#0f172a"/>
+
+<text x="800" y="60" fill="#e6edf3" font-size="34" text-anchor="middle" font-family="Arial">
+SOILE Platform — System Interaction Sequence
+</text>
+
+<text x="800" y="95" fill="#8b949e" font-size="18" text-anchor="middle" font-family="Arial">
+Tourist Device → Edge Node → Regional Infrastructure
+</text>
+
+<!-- Lanes -->
+
+<line x1="400" y1="150" x2="400" y2="850" stroke="#30363d" stroke-width="3"/>
+<line x1="800" y1="150" x2="800" y2="850" stroke="#30363d" stroke-width="3"/>
+<line x1="1200" y1="150" x2="1200" y2="850" stroke="#30363d" stroke-width="3"/>
+
+<!-- Lane Titles -->
+
+<text x="200" y="140" fill="#58a6ff" font-size="20" text-anchor="middle" font-family="Arial">
+Tourist Device (PWA)
+</text>
+
+<text x="600" y="140" fill="#58a6ff" font-size="20" text-anchor="middle" font-family="Arial">
+Edge Node
+</text>
+
+<text x="1000" y="140" fill="#58a6ff" font-size="20" text-anchor="middle" font-family="Arial">
+Regional Infrastructure
+</text>
+
+<!-- Event 1 -->
+
+<rect x="100" y="200" width="200" height="50" rx="10" fill="#238636"/>
+<text x="200" y="232" fill="#ffffff" font-size="16" text-anchor="middle" font-family="Arial">
+Route Request
+</text>
+
+<!-- Arrow -->
+
+<line x1="300" y1="225" x2="500" y2="225" stroke="#8b949e" stroke-width="3" marker-end="url(#arrow)"/>
+
+<!-- Event 2 -->
+
+<rect x="500" y="200" width="200" height="50" rx="10" fill="#1f6feb"/>
+<text x="600" y="232" fill="#ffffff" font-size="16" text-anchor="middle" font-family="Arial">
+Local Route Lookup
+</text>
+
+<!-- Arrow -->
+
+<line x1="700" y1="225" x2="900" y2="225" stroke="#8b949e" stroke-width="3" marker-end="url(#arrow)"/>
+
+<!-- Event 3 -->
+
+<rect x="900" y="200" width="200" height="50" rx="10" fill="#9e6a03"/>
+<text x="1000" y="232" fill="#ffffff" font-size="16" text-anchor="middle" font-family="Arial">
+Safety Data Query
+</text>
+
+<!-- Response -->
+
+<line x1="900" y1="290" x2="700" y2="290" stroke="#8b949e" stroke-width="3" marker-end="url(#arrow)"/>
+
+<rect x="700" y="265" width="200" height="50" rx="10" fill="#da3633"/>
+<text x="800" y="297" fill="#ffffff" font-size="16" text-anchor="middle" font-family="Arial">
+Safety Alert
+</text>
+
+<!-- Return to Device -->
+
+<line x1="500" y1="350" x2="300" y2="350" stroke="#8b949e" stroke-width="3" marker-end="url(#arrow)"/>
+
+<rect x="100" y="325" width="200" height="50" rx="10" fill="#8957e5"/>
+<text x="200" y="357" fill="#ffffff" font-size="16" text-anchor="middle" font-family="Arial">
+Tourist Notification
+</text>
+
+<!-- Arrow Definition -->
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+<path d="M0,0 L6,3 L0,6 Z" fill="#8b949e"/>
+</marker>
+</defs>
+
+</svg>
