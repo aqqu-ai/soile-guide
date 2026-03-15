@@ -76,3 +76,47 @@ Functions:
 - safety coordination
 - tourism analytics
 - optional cloud synchronization
+
+---
+
+## Repository Structure
+
+The SOILE Guide repository is organized to separate platform architecture, edge infrastructure, and the tourist-facing application.
+
+soile-guide/
+│
+├─ docs/
+│ ├─ architecture/
+│ │ └─ system_architecture.md
+│ └─ govtech_deployment.md
+│
+├─ platform/
+│ ├─ platform_architecture.md
+│ └─ edge_node_architecture.md
+│
+├─ pwa/
+│ └─ pwa_architecture.md
+│
+├─ use-cases/
+│ ├─ offline_route_navigation.md
+│ └─ remote_region_safety_monitoring.md
+│
+├─ README.md
+└─ LICENSE
+
+
+### Folder roles
+
+**docs/**  
+System-level documentation and government deployment architecture.
+
+**platform/**  
+Edge AI infrastructure and runtime architecture.
+
+**pwa/**  
+Tourist-facing Progressive Web Application architecture.
+
+**use-cases/**  
+Practical deployment scenarios demonstrating real-world usage of the platform.
+
+---
