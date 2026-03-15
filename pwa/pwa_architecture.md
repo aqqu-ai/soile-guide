@@ -81,3 +81,28 @@ The PWA acts as the **tourist-facing interface** within the SOILE ecosystem.
 Architecture interaction:
 
 Tourist → PWA App → Local Data → Optional Edge Services
+
+---
+
+## Edge Integration
+
+The SOILE platform optionally integrates with sovereign edge AI nodes deployed along remote tourism routes.
+
+These nodes provide:
+
+• environmental monitoring  
+• emergency detection  
+• local reasoning for safety events  
+• offline synchronization with tourist devices  
+
+Architecture flow:
+
+Tourist Device (PWA)  
+↓  
+Local Offline Data Package  
+↓  
+Optional Edge Node  
+↓  
+Vision / Sensor Analysis  
+↓  
+Safety Alerts / Route Updates
